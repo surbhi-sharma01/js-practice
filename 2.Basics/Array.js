@@ -36,5 +36,11 @@ console.log(splicing_add); //return nothing
 console.log(arr2); // 66 added
 
 
+// concate 2 arrays
+let a1 = ["daryl", "carl"];
+let a2 = ["on-jo", "su-hyuk"];
+let concatedArray = a1.concat(a2);
+console.log(concatedArray);
 
-
+let spread_merge = [...a1, ...a2];
+console.log(spread_merge);
