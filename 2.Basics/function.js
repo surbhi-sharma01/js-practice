@@ -17,3 +17,17 @@ function func2(...para){
     return para;
 }
 console.log(2,3,4);
+
+// passing object in function
+
+let obj = {
+    val1 : 2,
+    val2 : 8.9,
+    isCorrect : true
+}
+
+function passing_object(anObject){
+    console.log(anObject.val1 + " " + anObject.isCorrect);
+}
+
+passing_object(obj);
