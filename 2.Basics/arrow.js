@@ -52,4 +52,10 @@ let functi = (a,b) => {
 }
 let functio = (a,b) =>  (a + b);
 
+// IIFE immediately invoked function expression
+
+(function(){
+    console.log("heyy");
+})();
+
 
