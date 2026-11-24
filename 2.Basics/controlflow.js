@@ -1,5 +1,4 @@
 // if , if-else , if-else if, switch-case 
-// break and continue
 // && and || 
 
 // nullish coalescing operator (??)
